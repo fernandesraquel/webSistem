@@ -55,7 +55,7 @@ Escopo: O sistema será focado nas funcionalidades relacionadas à gestão de lo
 | Milestones                                 | Data de Início | Data de Conclusão | Link                                                              |
 | ------------------------------------------ | -------------- | ----------------- | ----------------------------------------------------------------- |
 | T01 - Iteração 1 - Planejamento            | 16/05/2023     | 23/05/2023        | [Clique aqui](https://github.com/renatak12/construct/milestone/1) |
-| T02 - Iteração 2 - Detalhamento            | 02/05/2023     | 11/05/2023        | [Clique aqui](https://github.com/renatak12/construct/milestone/2) |
+| T02 - Iteração 2 - Inicialização           | 02/05/2023     | 11/05/2023        | [Clique aqui](https://github.com/renatak12/construct/milestone/2) |
 | T03 - Iteração 3 - Desenvolvimento         | 10/05/2023     | 25/05/2023        | [Clique aqui](https://github.com/renatak12/construct/milestone/3) |
 | T04 - Iteração 4 - Implementação           | 26/05/2023     | 22/06/2023        | [Clique aqui](https://github.com/renatak12/construct/milestone/4) |
 | T05 - Iteração 5 - Conclusão               | 23/06/2023     | 20/07/2023        | [Clique aqui](https://github.com/renatak12/construct/milestone/5) |
