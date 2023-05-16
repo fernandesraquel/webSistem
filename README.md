@@ -9,7 +9,8 @@ O **CONSTRUCT** é uma aplicação web que proporcionará um gerenciamento efici
 | ------------------------------------- | ---------------------------------------------------- |
 | Termo de Abertura de Projeto          | [Clique aqui](docs/doc-termo-abertura.md)            |
 | Documento de Visão                    | [Clique aqui](docs/doc-visao.md)                     |
-| Lista de User Stories           | [Clique aqui](docs/doc-user-stories.md)|
+| Lista de User Stories                 | [Clique aqui](docs/doc-user-stories.md)              |
+| Documento de Modelos                  | [Clique aqui](docs/doc-modelos.md)                   |           
 
 ## Tecnologias utilizadas
 <p>
