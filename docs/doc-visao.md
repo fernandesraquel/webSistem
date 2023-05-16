@@ -9,7 +9,7 @@
 - [3. Matriz de Competências](#3-matriz-de-competencias)
 - [4. Perfis dos Usuários](#4-perfis-dos-usuarios)
 - [5. Lista de Requisitos Funcionais](#5-lista-de-requisitos-funcionais)
-- [6. Lista de Requisitos Não-Funcionais](#6-lista-de-requisitos-nao---funcionais)
+- [6. Lista de Requisitos Não-Funcionais](#6-lista-de-requisitos-não-funcionais)
 - [7. Restrições e Limitações](#7-restricoes-e-limitacoes)
 - [8. Modelo Conceitual](#8-modelo-conceitual)
 - [9. Gestão de Riscos](#9-gestao-de-riscos)
@@ -82,7 +82,7 @@ O projeto possui as seguintes restrições e limitações:
 2. Ambiente de Implantação: O sistema será implantado em um servidor web com suporte a Django e Python.
 3. Escopo: O sistema será focado nas funcionalidades relacionadas à gestão de lojas de materiais de construção.
 
-## 8. Modelo Conceitual
+## 8. Modelo Conceitual - DER
 O modelo conceitual do sistema de gestão para lojas de materiais de construção incluirá as seguintes entidades:
 
 ```mermaid
