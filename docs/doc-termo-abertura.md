@@ -45,7 +45,9 @@ O sistema de gestão **CONSTRUCT** foi criado com o intuíto de proporcionar uma
 
 | Nome                            | Link                       |
 | ------------------------------- | -------------------------- |
-| Documento de Visão              | [Clique aqui](doc-visao.md)       |
+| Documento de Visão              | [Clique aqui](doc-visao.md)|
+| Lista de User Stories           | [Clique aqui](doc-user-stories.md)|
+
 
 # 6. Restrições para o projeto
 
