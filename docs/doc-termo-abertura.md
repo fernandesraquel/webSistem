@@ -46,9 +46,9 @@ O projeto foi criado para auxiliar usuários a organizar suas tarefas cotidianas
 # 6. Restrições para o projeto
 O projeto possui as seguintes restrições:
 
-Tecnologia: O sistema será desenvolvido utilizando o framework Django e a linguagem de programação Python.  
-Ambiente de Implantação: O sistema será implantado em um servidor web com suporte a Django e Python.  
-Escopo: O sistema será focado nas funcionalidades relacionadas à gestão de lojas de materiais de construção.
+* Tecnologia: O sistema será desenvolvido utilizando o framework Django e a linguagem de programação Python.  
+* Ambiente de Implantação: O sistema será implantado em um servidor web com suporte a Django e Python.  
+* Escopo: O sistema será focado nas funcionalidades relacionadas à gestão de lojas de materiais de construção.
 
 # 7. Cronograma de macros
 
