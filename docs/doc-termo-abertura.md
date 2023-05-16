@@ -33,7 +33,7 @@ Este é o documento que autoriza formalmente o início do projeto. Ele concede a
 | Renata       | Gerente, Analista, Testador, Desenvolvedor | renata.k.a@hotmail.com       |[Clique aqui](https://github.com/renatak12)       |
 
 # 3. Objetivos do projeto
-O objetivo deste projeto é desenvolver um sistema de gestão para lojas de materiais de construção, denominado CONSTRUCT, utilizando o framework Django e a linguagem Python. O sistema fornecerá recursos de cadastro, listagem, busca, excluxão, edição, controle de estoque, vendas, emissão de nota fiscal e relatórios para monitorar o desempenho da loja, identificar tendências, tomar decisões estratégicas e garantir a eficiência das operações.
+O objetivo deste projeto é desenvolver um sistema de gestão para lojas de materiais de construção utilizando o framework Django e a linguagem Python. O sistema fornecerá recursos de cadastro, listagem, busca, excluxão, edição, controle de estoque, vendas, emissão de nota fiscal e relatórios para monitorar o desempenho da loja, identificar tendências, tomar decisões estratégicas e garantir a eficiência das operações.
 
 # 4. Justificativa do projeto
 O projeto foi criado para auxiliar usuários a organizar suas tarefas cotidianas, adicionando as características mais procuradas neste tipo de software, focando na simplicidade e objetividade.
@@ -46,8 +46,8 @@ O projeto foi criado para auxiliar usuários a organizar suas tarefas cotidianas
 # 6. Restrições para o projeto
 O projeto possui as seguintes restrições:
 
-Tecnologia: O sistema será desenvolvido utilizando o framework Django e a linguagem de programação Python.
-Ambiente de Implantação: O sistema será implantado em um servidor web com suporte a Django e Python.
+Tecnologia: O sistema será desenvolvido utilizando o framework Django e a linguagem de programação Python.  
+Ambiente de Implantação: O sistema será implantado em um servidor web com suporte a Django e Python.  
 Escopo: O sistema será focado nas funcionalidades relacionadas à gestão de lojas de materiais de construção.
 
 # 7. Cronograma de macros
