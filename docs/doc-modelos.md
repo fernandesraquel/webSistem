@@ -4,7 +4,7 @@ Neste documento temos o modelo de Dados (Entidade-Relacionamento). Temos também
 
 ## Modelo Conceitual
 
-Para a construção do modelo conceitual (Entidade-Relacionamento) utilizou-se a tecnologia **Mermaid**.
+Para a construção do modelo conceitual, utilizou-se a tecnologia **Mermaid**.
 
 ```mermaid
     erDiagram
@@ -135,11 +135,11 @@ Dicionário de dados centraliza informações sobre o conjunto de dados (dataset
 
 ## Tabela: Usuário
 
-| Atributo   | Chave | Tipo de dado | Tamanho | Descrição                                     |
-| ---------- | :---: | :----------: | :-----: | --------------------------------------------- |
-| cod_usuario|  PK   |   INTEGER    |    4    | Identificador incremental de usuário.         |
-| username   |  NN   | VARCHAR[16]  |   16    | Email formato local-part@domain - - RFC 5322. |     
-| senha      |  NN   | VARCHAR[10]  |   10    | Senha do usuário. |
+| Atributo   | Chave  | Tipo de dado  | Tamanho  | Descrição                                     |
+| ---------- | :---:  | :----------:  | :-----:  | --------------------------------------------- |
+| cod_usuario|  S PK  |   INTEGER     |    4     | Um identificador único para cada usuário (chave primária).         |
+| username   |  NN U  | VARCHAR[100]  |   100    | Email formato local-part@domain - - RFC 5322. |     
+| senha      |  NN    | VARCHAR[100]  |   100    | Senha do usuário. |
 
 ## Tabela: Funcionário
 

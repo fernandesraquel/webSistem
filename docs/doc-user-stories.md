@@ -30,7 +30,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     </tr>
     <tr>
       <td scope="row"><b>Requisistos Envolvidos</b></td>
-      <td colspan="3">RF016, RF017, RF018, RF019 e RF020</td>
+      <td colspan="3">RF001, RF002, RF10, RF11 e RF12</td>
     </tr>
     <tr>
       <td scope="row"><b>Prioridade</b></td>
@@ -100,7 +100,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     </tr>
     <tr>
       <td scope="row"><b>Requisistos Envolvidos</b></td>
-      <td colspan="3">RF001, RF002, RF003, RF004, RF005 e RF006</td>
+      <td colspan="3">RF001, RF005, RF10, RF11 e RF12</td>
     </tr>
     <tr>
       <td scope="row"><b>Prioridade</b></td>
@@ -162,7 +162,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 <table>
   <thead>
     <tr>
-      <th colspan="4" scope="row">User Story US03 - Manter Estoque</th>
+      <th colspan="4" scope="row">User Story US03 - Controlar Estoque</th>
     </tr>
   </thead>
   <tbody>
