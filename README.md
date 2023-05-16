@@ -38,3 +38,66 @@ O **CONSTRUCT** é uma aplicação web que proporcionará um gerenciamento efici
 [Maicon Douglas da Silva](https://github.com/mdouglas630)  
 [Raquel Lima Fernandes](https://github.com/fernandesraquel)  
 [Renata Karla Araújo dos Santos](https://github.com/renatak12)
+
+# Criação do projeto
+
+O projeto será executado inicialmento em um ambiente virtual utilizando o virtualenv. Como o Virtualenv Funciona?
+<p align=center>
+  <img src="https://pythonacademy.com.br/assets/posts/python-and-virtualenv/esquema-virtualenv.png" width=400/>
+</p>
+Ele basicamente cria uma cópia de todos os diretórios necessários para que um programa Python seja executado. Assim, ao instalar uma nova dependência dentro do ambiente criado pelo virtualenv, ele será colocado no diretório site-packages relativo à esse ambiente, e não mais globalmente.
+
+## Primeiros Passos
+### Ativação do ambiente virtual
+### Instalação do Django
+Após criarmos nosso ambiente virtual, instalamos o Django com:  
+
+``` 
+pip install django
+``` 
+
+Nosso projeto é fazer um sistema de gerenciamento para lojas de materiais de construção. Ou seja, vamos fazer uma aplicação onde será possível adicionar,  listar, atualizar e deletar gerentes, venderores, fornecedores, clientes, produtos e outras funcionalidades.  
+Vamos começar criando a estrutura de diretórios e arquivos principais para o funcionamento do Django. Para isso, vamos executar o comando:  
+``` 
+django-admin.py startproject construct
+```  
+O comando **startproject**  cria um novo projeto com a estrutura de diretórios:  
+``` 
+/construct
+  - __init__.py  
+  - asgi.py  
+  - settings.py  
+  - urls.py  
+  - wsgi.py  
+- manage.py  
+``` 
+Explicando cada arquivo:  
+
+* construct/asgi.py: Aqui configuramos a interface entre o servidor de aplicação e nossa aplicação Django.  
+* construct/settings.py: Arquivo muito importante com as configurações do nosso projeto, como configurações do banco de dados, aplicativos instalados, configuração de arquivos estáticos e muito mais.
+* construct/urls.py: Arquivo de configuração de rotas (ou URLConf). É nele que configuramos quem responde a qual URL.
+* construct/wsgi.py: Aqui configuramos a interface entre o servidor de aplicação e nossa aplicação Django.
+* manage.py: Arquivo gerado automaticamente pelo Django que expõe comandos importantes para manutenção da nossa aplicação.  
+
+Para testar, vá para a pasta raíz do projeto e execute o comando: 
+``` 
+python manage.py runserver
+```   
+
+Depois, acesse seu browser no endereço http://localhost:8000. A seguinte tela deve ser mostrada:  
+
+<p align=center>
+  <img src="https://pythonacademy.com.br/assets/posts/python-and-virtualenv/esquema-virtualenv.png" width=800/>
+</p>  
+
+Se ela aparecer, nossa configuração está **correta** e estamos prontos para começarmos a desenvolver nossa aplicação!  
+
+Agora, vamos criar um app chamado usuarios para separarmos os arquivos de configuração da nossa aplicação, que vão ficar na pasta /construct, dos
+arquivos relacionados aos usuarios.
+
+
+
+
+
+
+
