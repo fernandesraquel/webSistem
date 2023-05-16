@@ -36,7 +36,7 @@ Este é o documento que autoriza formalmente o início do projeto. Ele concede a
 O objetivo deste projeto é desenvolver um sistema de gestão para lojas de materiais de construção utilizando o framework Django e a linguagem Python. O sistema fornecerá recursos de cadastro, listagem, busca, excluxão, edição, controle de estoque, vendas, emissão de nota fiscal e relatórios para monitorar o desempenho da loja, identificar tendências, tomar decisões estratégicas e garantir a eficiência das operações.
 
 # 4. Justificativa do projeto
-O projeto foi criado para auxiliar usuários a organizar suas tarefas cotidianas, adicionando as características mais procuradas neste tipo de software, focando na simplicidade e objetividade.
+O sistema de gestão **CONSTRUCT** foi criado com o intuíto de proporcionar uma solução eficiente e abrangente para a administração de lojas do setor de materiais de construção. Ao permitir o cadastro de produtos, controlar o estoque, registrar vendas, gerar relatórios e emitir notas fiscais, o sistema oferecerá suporte às operações diárias das lojas. Utilizando o framework Django e Python, espera-se alcançar uma implementação robusta e escalável.
 
 # 5. Descrição dos produtos/entregáveis do projeto
 | Nome                            | Link                       |
