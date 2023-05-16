@@ -97,37 +97,37 @@ Para a construção do modelo conceitual (Entidade-Relacionamento) utilizou-se a
 O modelo conceitual do sistema de gestão **CONSTRUCT** incluirá as seguintes entidades:
 
 ### Entidade: Usuário
-    - A entidade "Usuário" representa os usuários do sistema.
-    - Possui atributos como ID, e-mail, senha e função (indicando se é um usuário de TI ou funcionário).
+* A entidade "Usuário" representa os usuários do sistema.
+* Possui atributos como ID, e-mail, senha e função (indicando se é um usuário de TI ou funcionário).
 ### Entidade: Funcionário
-    - A entidade "Funcionário" representa os funcionários da loja.
-    - Possui atributos como ID, nome, sobrenome, e-mail e cargo (indicando se é um gerente, vendedor ou outro cargo específico).
+* A entidade "Funcionário" representa os funcionários da loja.
+* Possui atributos como ID, nome, sobrenome, e-mail e cargo (indicando se é um gerente, vendedor ou outro cargo específico).
 ### Entidade: Fornecedor
-    - A entidade "Fornecedor" representa as empresas ou indivíduos que fornecem os materiais de construção para a loja.
-    - Possui atributos como ID, nome, contato e endereço.
-    - Não interage diretamente com o sistema, mas é gerenciado pelo funcionário (gerente).
+* A entidade "Fornecedor" representa as empresas ou indivíduos que fornecem os materiais de construção para a loja.
+* Possui atributos como ID, nome, contato e endereço.
+* Não interage diretamente com o sistema, mas é gerenciado pelo funcionário (gerente).
 ### Entidade: Cliente
-    - A entidade "Cliente" representa os indivíduos ou empresas que realizam compras na loja.
-    - Possui atributos como ID, nome, contato e endereço.
-    - Está associada ao funcionário(gerente, vendedor) responsável por meio de um relacionamento de "atendido por".
+* A entidade "Cliente" representa os indivíduos ou empresas que realizam compras na loja.
+* Possui atributos como ID, nome, contato e endereço.
+* Está associada ao funcionário(gerente, vendedor) responsável por meio de um relacionamento de "atendido por".
 ### Entidade: Produto
-    - A entidade "Produto" representa os materiais de construção disponíveis na loja.
-    - Possui atributos como ID, nome, descrição, preço e quantidade em estoque.
+* A entidade "Produto" representa os materiais de construção disponíveis na loja.
+* Possui atributos como ID, nome, descrição, preço e quantidade em estoque.
 ### Entidade: Categoria-Produto
-    - A entidade "Categoria-Produto" representa as diferentes categorias ou tipos de produtos disponíveis na loja.
-    - Possui atributos como ID e nome da categoria.
+* A entidade "Categoria-Produto" representa as diferentes categorias ou tipos de produtos disponíveis na loja.
+* Possui atributos como ID e nome da categoria.
 ### Entidade: Venda
-    - A entidade "Venda" representa as transações de vendas realizadas na loja.
-    - Possui atributos como ID da venda, data, valor total, informações de pagamento, e outras informações relevantes relacionadas à venda.
+* A entidade "Venda" representa as transações de vendas realizadas na loja.
+* Possui atributos como ID da venda, data, valor total, informações de pagamento, e outras informações relevantes relacionadas à venda.
 ### Entidade: Item-Venda
-    - A entidade "Item-Venda" representa os produtos específicos vendidos em cada transação de venda.
-    - Possui atributos como ID do item-venda, quantidade, preço unitário e quaisquer outros detalhes relevantes relacionados ao produto vendido.
+* A entidade "Item-Venda" representa os produtos específicos vendidos em cada transação de venda.
+* Possui atributos como ID do item-venda, quantidade, preço unitário e quaisquer outros detalhes relevantes relacionados ao produto vendido.
 ### Entidade: Estoque
-    - A entidade "Estoque" representa o inventário dos produtos disponíveis na loja.
-    - Possui atributos como ID do produto, quantidade disponível, data de entrada, data de saída e quaisquer outros detalhes relevantes relacionados ao controle de estoque.
+* A entidade "Estoque" representa o inventário dos produtos disponíveis na loja.
+* Possui atributos como ID do produto, quantidade disponível, data de entrada, data de saída e quaisquer outros detalhes relevantes relacionados ao controle de estoque.
 ### Entidade: Pagamento
-    - A entidade "Pagamento" representa as informações referentes aos pagamentos efetuados pelos clientes durante as transações de venda.
-    - Possui atributos como ID do pagamento, valor, método de pagamento (por exemplo, dinheiro, cartão de crédito) e outras informações relevantes relacionadas ao pagamento.
+* A entidade "Pagamento" representa as informações referentes aos pagamentos efetuados pelos clientes durante as transações de venda.
+* Possui atributos como ID do pagamento, valor, método de pagamento (por exemplo, dinheiro, cartão de crédito) e outras informações relevantes relacionadas ao pagamento.
 
 ## Dicionário de Dados
 
@@ -135,11 +135,11 @@ Dicionário de dados centraliza informações sobre o conjunto de dados (dataset
 
 ## Tabela: Usuário
 
-| Atributo  | Chave | Tipo de dado | Tamanho | Descrição                                     |
-| --------- | :---: | :----------: | :-----: | --------------------------------------------- |
-| id        |  PK   |   INTEGER    |    4    | Identificador incremental de usuário.         |
-| username  |  NN   | VARCHAR[16]  |   16    | Email formato local-part@domain - - RFC 5322. |     
-| senha     |  NN   | VARCHAR[10]  |   10    | Senha do usuário. |
+| Atributo   | Chave | Tipo de dado | Tamanho | Descrição                                     |
+| ---------- | :---: | :----------: | :-----: | --------------------------------------------- |
+| cod_usuario|  PK   |   INTEGER    |    4    | Identificador incremental de usuário.         |
+| username   |  NN   | VARCHAR[16]  |   16    | Email formato local-part@domain - - RFC 5322. |     
+| senha      |  NN   | VARCHAR[10]  |   10    | Senha do usuário. |
 
 ## Tabela: Funcionário
 
