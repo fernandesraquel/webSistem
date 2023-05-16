@@ -1,7 +1,7 @@
 # Construct
 
 # Descrição do Projeto
-O **CONSTRUCT** será uma aplicação web que permitirá o gerenciamento eficiente das atividades relacionadas à loja de materiais de construção. Os principais módulos incluem o cadastro, listagem, busca, exclusão e edição de gerente, vendedores, fornecedores, clientes e produtos, controle de estoque, registro de vendas, emissão de nota fiscal e geração de relatórios. O sistema será desenvolvido com o framework Django e a linguagem Python.
+O **CONSTRUCT** é uma aplicação web que proporcionará um gerenciamento eficiente das atividades relacionadas à loja de materiais de construção. Os principais módulos incluem cadastro, listagem, busca, exclusão e edição de gerentes, vendedores, fornecedores, clientes e produtos, controle de estoque, registro de vendas, emissão de notas fiscais e geração de relatórios. O sistema será desenvolvido utilizando o framework Django e a linguagem Python.
  
 ## Documentos
 
