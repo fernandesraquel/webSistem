@@ -14,6 +14,7 @@
 - [9. Riscos identificados](#9-riscos-identificados)
 
 # 1. Descrição
+
 Este é o documento que autoriza formalmente o início do projeto. Ele concede ao gerente de projetos a autoridade para aplicar os recursos organizacionais nas atividades do projeto.
 
 ## 1.1. Histórico de revisões
@@ -33,22 +34,26 @@ Este é o documento que autoriza formalmente o início do projeto. Ele concede a
 | Renata       | Gerente, Analista, Testador, Desenvolvedor | renata.k.a@hotmail.com       |[Clique aqui](https://github.com/renatak12)       |
 
 # 3. Objetivos do projeto
+
 O objetivo deste projeto é desenvolver um sistema de gestão para lojas de materiais de construção utilizando o framework Django e a linguagem Python. O sistema fornecerá recursos de cadastro, listagem, busca, excluxão, edição, controle de estoque, vendas, emissão de nota fiscal e relatórios para monitorar o desempenho da loja, identificar tendências, tomar decisões estratégicas e garantir a eficiência das operações.
 
 # 4. Justificativa do projeto
+
 O sistema de gestão **CONSTRUCT** foi criado com o intuíto de proporcionar uma solução eficiente e abrangente para a administração de lojas do setor de materiais de construção. Ao permitir o cadastro de produtos, controlar o estoque, registrar vendas, gerar relatórios e emitir notas fiscais, o sistema oferecerá suporte às operações diárias das lojas. Utilizando o framework Django e Python, espera-se alcançar uma implementação robusta e escalável.
 
 # 5. Descrição dos produtos/entregáveis do projeto
+
 | Nome                            | Link                       |
 | ------------------------------- | -------------------------- |
 | Documento de Visão              | [Clique aqui](doc-visao.md)       |
 
 # 6. Restrições para o projeto
+
 O projeto possui as seguintes restrições:
 
-* Tecnologia: O sistema será desenvolvido utilizando o framework Django e a linguagem de programação Python.  
-* Ambiente de Implantação: O sistema será implantado em um servidor web com suporte a Django e Python.  
-* Escopo: O sistema será focado nas funcionalidades relacionadas à gestão de lojas de materiais de construção.
+1. Tecnologia: O sistema será desenvolvido utilizando o framework Django e a linguagem de programação Python.  
+2. Ambiente de Implantação: O sistema será implantado em um servidor web com suporte a Django e Python.  
+3. Escopo: O sistema será focado nas funcionalidades relacionadas à gestão de lojas de materiais de construção.
 
 # 7. Cronograma de macros
 
