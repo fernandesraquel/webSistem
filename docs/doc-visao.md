@@ -3,17 +3,17 @@
 
 <h2>Sumário</h2>
 
-- [1. Introcução](#1-introducao)
+- [1. Introcução](#1-introdução)
   - [1.1. Histórico de revisões](#11-histórico-de-revisões)
-- [2. Descrição do Sistema](#2-descricao-do-sistema)
-- [3. Matriz de Competências](#3-matriz-de-competencias)
-- [4. Perfis dos Usuários](#4-perfis-dos-usuarios)
-- [5. Lista de Requisitos Funcionais](#5-lista-de-requisitos-funcionais)
+- [2. Descrição do Sistema](#2-descrição-do-sistema)
+- [3. Matriz de Competências](#3-matriz-de-competências)
+- [4. Perfis dos Usuários](#4-perfis-dos-usuários)
+- [5. Lista de Requisitos Funcionais](#5lista-de-requisitos-funcionais)
 - [6. Lista de Requisitos Não-Funcionais](#6-lista-de-requisitos-não-funcionais)
-- [7. Restrições e Limitações](#7-restricoes-e-limitacoes)
+- [7. Restrições e Limitações](#7-restrições-e-limitações)
 - [8. Modelo Conceitual - DER](#8-modelo-conceitual---der)
-- [9. Gestão de Riscos](#9-gestao-de-riscos)
-- [10. Considerações Finais](#10-consideracoes-finais)
+- [9. Gestão de Riscos](#9-gestão-de-riscos)
+- [10. Considerações Finais](#10-considerações-finais)
 
 
 ## 1. Introdução
@@ -31,7 +31,7 @@ O objetivo deste projeto é desenvolver um sistema de gestão para lojas de mate
 ## 2. Descrição do Sistema
 O sistema de gestão será uma aplicação web que permitirá o gerenciamento eficiente das atividades relacionadas à loja de materiais de construção. Os principais módulos incluem o cadastro, listagem, busca e exclusão de gerente, vendedores, fornecedores e clientes, controle de estoque, registro de vendas, emissão de nota fiscal e geração de relatórios. O sistema será desenvolvido com o framework Django, proporcionando uma arquitetura robusta e escalável.
 
-## 4. Matriz de Competências
+## 3. Matriz de Competências
 O desenvolvimento deste sistema requer as seguintes competências técnicas:
 |Competência| 	Descrição|
 |---|---|
@@ -50,7 +50,7 @@ O desenvolvimento deste sistema requer as seguintes competências técnicas:
 |Fornecedor|	Não utilizará as funcionalidades do sistema, mas poderá ter seus dados cadastrados e gerenciados pelo gerente.|
 |Cliente|	Não utilizará as funcionalidades do sistema, mas poderá ter seus dados cadastrados e gerenciados pelo gerente e/ou vendedor.|
 
-## 4.Lista de Requisitos Funcionais
+## 5.Lista de Requisitos Funcionais
 |Requisito| 	Descrição|	Ator|
 |---|---|---|
 |RF001 - Cadastro de Gerente|	O sistema permitirá o cadastro do gerente, fornecendo informações pessoais e credenciais de acesso.|	TI|
@@ -185,5 +185,5 @@ Essas entidades terão relacionamentos e atributos adequados para atender aos re
 |20/06/23|	Falha no processo de backup dos dados|	Alta|	TI|	Em andamento|	Revisar e aprimorar o processo de backup, realizar testes regulares de restauração e implementar mecanismos de monitoramento para garantir a eficácia do backup.|
 |30/06/23|	Conflitos de agenda entre os membros da equipe|	Baixa|	Gerente|	Resolvido|	Implementar um sistema de gerenciamento de calendário compartilhado e estabelecer políticas de comunicação e coordenação entre a equipe.|
 
-## 11. Considerações Finais
+## 10. Considerações Finais
 O sistema de gestão para lojas de materiais de construção visa proporcionar uma solução eficiente e abrangente para a administração de lojas do setor. Ao permitir o cadastro de produtos, controlar o estoque, registrar vendas, gerar relatórios e emitir notas fiscais, o sistema oferecerá suporte às operações diárias das lojas. Utilizando o framework Django e Python, espera-se alcançar uma implementação robusta e escalável. A gestão de riscos é um fator essencial para garantir a segurança e o desempenho do sistema, e a integração com outros sistemas existentes deve ser considerada durante o desenvolvimento. Com essas diretrizes em mente, o sistema de gestão ajudará as lojas de materiais de construção a otimizar suas operações e aprimorar a experiência do cliente.
